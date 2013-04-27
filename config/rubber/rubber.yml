@@ -1,12 +1,12 @@
 # REQUIRED: The name of your application
-app_name: your_app_name
+app_name: bits
 
 # REQUIRED: The system user to run your app servers as
 app_user: app
 
 # REQUIRED: Notification emails (e.g. monit) get sent to this address
 #
-admin_email: "root@#{full_host}"
+admin_email: "bradsmithinc@gmail.com"
 
 # OPTIONAL: If not set, you won't be able to access web_tools
 # server (graphite, graylog, monit status, haproxy status, etc)
@@ -18,7 +18,7 @@ timezone: US/Eastern
 
 # REQUIRED: the domain all the instances should be associated with
 #
-domain: foo.com
+domain: getbi.ts
 
 # OPTIONAL: See rubber-dns.yml for dns configuration
 # This lets rubber update a dynamic dns service with the instance alias
@@ -55,9 +55,9 @@ cloud_providers:
     
     # REQUIRED The amazon keys and account ID (digits only, no dashes) used to access the AWS API
     #
-    access_key: XXX
-    secret_access_key: YYY
-    account: 'ZZZ'
+    access_key: AKIAJ67R2CVWMYBNEQKQ
+    secret_access_key: 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
+    account: '7781-8593-7428'
 
     # REQUIRED:  The name of the amazon keypair and location of its private key
     #
@@ -67,7 +67,7 @@ cloud_providers:
     # public key from the private key: ssh-keygen -y -f gsg-keypair > gsg-keypair.pub
     #
     key_name: gsg-keypair
-    key_file: "#{Dir[(File.expand_path('~') rescue '/root') + '/.ec2/*' + cloud_providers.aws.key_name].first}"
+    key_file: "#{Dir[(File.expand_path('~') rescue '/root') + '/keys/techcrunchhack.pub}"
 
     # OPTIONAL: Needed for bundling a running instance using rubber:bundle
     #
