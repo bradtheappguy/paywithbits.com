@@ -1,4 +1,6 @@
 /node_modules
 keys/*
 .DS_Store
-
+db/*.sqlite3
+log/*.log
+tmp/**/*
