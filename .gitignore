@@ -7,3 +7,6 @@ bitcoin.db
 db/development.sqlite3
 db/test.sqlite3
 tmp/*
+db/*.sqlite3
+log/*.log
+tmp/**/*
