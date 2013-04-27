@@ -1,0 +1,12 @@
+*.gem
+.bundle
+Gemfile.lock
+pkg/*
+*.swp
+.rvmrc
+*.DS_Store
+db/database.yml
+tmp/
+log/
+rdoc/
+coverage/

@@ -51,7 +51,7 @@ cloud_providers:
     # ap-southeast-1
     # ap-southeast-2
     #
-    region: us-east-1
+    region: us-west-1
     
     # REQUIRED The amazon keys and account ID (digits only, no dashes) used to access the AWS API
     #
@@ -66,9 +66,10 @@ cloud_providers:
     # extension ".pub".  The easiest way to get your hand on this is to create the
     # public key from the private key: ssh-keygen -y -f gsg-keypair > gsg-keypair.pub
     #
-    key_name: gsg-keypair
-    key_file: "#{Dir[(File.expand_path('~') rescue '/root') + '/keys/techcrunchhack.pub}"
-
+    key_name: bbb
+    key_file: "#{Dir[(File.expand_path('~') rescue '/root') + '/.ec2/*' + cloud_providers.aws.key_name].first}"
+    #ikey_file: "/Users/bradsmithinc3/.ec2/bbb"
+    
     # OPTIONAL: Needed for bundling a running instance using rubber:bundle
     #
     # pk_file: "#{Dir[(File.expand_path('~') rescue '/root') + '/.ec2/pk-*'].first}"
@@ -84,7 +85,7 @@ cloud_providers:
     #
     # m1.small or m1.large or m1.xlarge
     image_type: c1.medium
-    image_id: ami-b6089bdf
+    image_id: ami-2c002c69 
 
     # OPTIONAL: EC2 spot instance request support.
     #

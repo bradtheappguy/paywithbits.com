@@ -23,8 +23,7 @@ end
 
 gem 'jquery-rails'
 
-gem 'bitcoin-ruby'
-
+gem 'bitcoin-ruby', :path => "vendor/gems/bitcoin-ruby-0.0.1"
 gem 'rubber'
 
 # To use ActiveModel has_secure_password
