@@ -28,6 +28,9 @@ app.configure('development', function(){
 
 app.get('/', routes.index);
 
+app.get('/api/req/:num', routes.request_payment);
+app.get('/api/send/:num', routes.send_payment);
+
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
 });
