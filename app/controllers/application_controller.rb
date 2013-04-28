@@ -1,9 +1,9 @@
 class ApplicationController < ActionController::Base
-  protect_from_forgery
+  #protect_from_forgery
 
   def inbound
-    message = params[:body].downcase
-    from = params[:from]
+    message = params[:Body].downcase
+    from = params[:From]
     parts = message.split(" ")
     mega_from = "+14156751348"
 
