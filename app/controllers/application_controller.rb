@@ -14,7 +14,7 @@ class ApplicationController < ActionController::Base
           new_number.save!
 
 
-          $twilio_client.account.sms.messages.create(:from => mega_from, :to => from, :body => "Thank you for signing up! To start type help")
+          $twilio_client.account.sms.messages.create(:from => mega_from, :to => from, :body => "Thank you for signing up! To start send help")
 
         when "send"
           raise "invalid syntax" unless parts.length == 6
@@ -25,7 +25,7 @@ class ApplicationController < ActionController::Base
           from_number = PhoneNumber.find_by_number!(from)
           to_number = PhoneNumber.find_by_number!(to)
 
-          raise "same person" if from_number.number == to_number.number
+          raise "Same Person" if from_number.number == to_number.number
 
           from_wallet = WalletThang.new(from_number)
           to_wallet = WalletThang.new(to_number)
@@ -38,7 +38,7 @@ class ApplicationController < ActionController::Base
           raise "invalid syntax" unless parts.length == 1
 
           from_number = PhoneNumber.find_by_number!(from)
-          $twilio_client.account.sms.messages.create(:from => mega_from, :to => from_number.number, :body => "You have #{from_number.balance}BTC")
+          $twilio_client.account.sms.messages.create(:from => mega_from, :to => from_number.number, :body => "You have #{from_number.balance}BTC.")
 
         when "request"
           raise "invalid syntax" unless parts.length == 6
@@ -61,8 +61,8 @@ class ApplicationController < ActionController::Base
           new_request.thing = thing
           new_request.save!
 
-          $twilio_client.account.sms.messages.create(:from => mega_from, :to => from_number.number, :body => "You are requesting #{amount} from #{to_number.number} for #{thing}")
-          $twilio_client.account.sms.messages.create(:from => mega_from, :to => to_number.number, :body => "#{from_number.number} is requesting #{amount} for #{thing} ok?")
+          $twilio_client.account.sms.messages.create(:from => mega_from, :to => from_number.number, :body => "You are requesting #{amount} from #{to_number.number} for #{thing}.")
+          $twilio_client.account.sms.messages.create(:from => mega_from, :to => to_number.number, :body => "#{from_number.number} is requesting #{amount} for #{thing}. Confirm or Deny?")
 
         when "ok"
           raise "invalid syntax" unless parts.length == 1
@@ -87,7 +87,7 @@ class ApplicationController < ActionController::Base
           Request.where(:to_id => from_number.id).destroy_all
 
       else
-        raise "unknown command '#{message}'"
+        raise "Unknown command '#{message}'. Send 'help' for options"
       end
     rescue => e
       $twilio_client.account.sms.messages.create(:from => mega_from, :to => from, :body => e.message)
