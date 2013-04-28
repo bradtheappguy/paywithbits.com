@@ -1,13 +1,9 @@
 class PhoneNumber < ActiveRecord::Base
+
   attr_accessible :number, :bitcoin_address
-
-  #phony_normalize :number, :default_country_code => 'US', :format => :international
-
-  validates_presence_of :number
-
-  #validates :balance, :numericality => { :greater_than => 0.0 }
-  before_create :generate_bitcoin_address
   before_validation :normalize_number
+  validates_presence_of :number
+  before_create :generate_bitcoin_address
 
   def generate_bitcoin_address
     unless self.bitcoin_address
@@ -33,8 +29,6 @@ class PhoneNumber < ActiveRecord::Base
      $bitcoin.getbalance(self.account,0)
   end
 
-  #def sendfrom(fromaccount, tobitcoinaddress, amount, minconf = 1, comment = nil, comment_to = nil)
-  
   def send_bitcoin(recipient, amount, comment)
     $bitcoin.sendfrom(self.account, recipient.bitcoin_address, amount, 0, comment, comment) unless self.balance < (amount + 0.001) || self.balance < 0
   end
