@@ -13,7 +13,17 @@ class PhoneNumber < ActiveRecord::Base
     end
   end
 
+  def account
+    $bitcoin.getaccount(self.bitcoin_address)
+  end
+
   def balance
-     WalletThang.get_balance(self.bitcon_address)
+     $bitcoin.getbalance(self.account,0)
+  end
+
+  #def sendfrom(fromaccount, tobitcoinaddress, amount, minconf = 1, comment = nil, comment_to = nil)
+  
+  def send_bitcoin(recipient, amount, comment)
+    $bitcoin.sendfrom(self.account, recipient.bitcoin_address, amount, 0, comment, comment) unless self.balance < (amount + 0.001) || self.balance < 0
   end
 end
