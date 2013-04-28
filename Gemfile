@@ -51,3 +51,5 @@ gem "em-dns"
 gem "localtunnel"
 
 gem "unicorn"
+
+gem "uuid"
