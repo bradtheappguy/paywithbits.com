@@ -1,23 +1,32 @@
 class ApplicationController < ActionController::Base
   def inbound
     message = params[:Body].downcase
+    raise "Body missing" unless message
+
     from = params[:From]
+    raise "From missing" unless from
+
     parts = message.split(" ")
     mega_from = "+14156751348"
 
+    unknown_command_message = "Unknown Command."
+    unknown_request_message = "Unknown Request."
+    syntax_message = "Invalid Syntax."
+    same_person_message = "Same Person."
+    help_message = "See: http://paywithbits.com/help"
+
     begin
-      case parts[0]
+      case parts.first
         when "signup"
-          raise "invalid syntax" unless parts.length == 1
+          raise syntax_message unless parts.length == 1
 
           new_number = PhoneNumber.new(:number => from)
           new_number.save!
 
-
-          $twilio_client.account.sms.messages.create(:from => mega_from, :to => from, :body => "Thank you for signing up! To start send help")
+          $twilio_client.account.sms.messages.create(:from => mega_from, :to => from, :body => "Thank you for signing up! " + help_message)
 
         when "send"
-          raise "invalid syntax" unless parts.length == 6
+          raise syntax_message unless parts.length == 6
 
           amount = parts[1]
           to = parts[3]
@@ -25,7 +34,7 @@ class ApplicationController < ActionController::Base
           from_number = PhoneNumber.find_by_number!(from)
           to_number = PhoneNumber.find_by_number!(to)
 
-          raise "Same Person. Send 'help' for assistance." if from_number.number == to_number.number
+          raise same_person_message if from_number.number == to_number.number
 
           from_wallet = WalletThang.new(from_number)
           to_wallet = WalletThang.new(to_number)
@@ -35,13 +44,13 @@ class ApplicationController < ActionController::Base
           $twilio_client.account.sms.messages.create(:from => mega_from, :to => to_number.number, :body => "#{from_number.number} gave you #{amount}.")
 
         when "balance"
-          raise "invalid syntax" unless parts.length == 1
+          raise syntax_message unless parts.length == 1
 
           from_number = PhoneNumber.find_by_number!(from)
           $twilio_client.account.sms.messages.create(:from => mega_from, :to => from_number.number, :body => "You have #{from_number.balance}BTC.")
 
         when "request"
-          raise "invalid syntax" unless parts.length == 6
+          raise syntax_message unless parts.length == 6
 
           amount = parts[1]
           to = parts[3]
@@ -49,10 +58,7 @@ class ApplicationController < ActionController::Base
           from_number = PhoneNumber.find_by_number!(from)
           to_number = PhoneNumber.find_by_number!(to)
 
-          raise "Same Person. Send 'help' for assistance." if from_number.number == to_number.number
-
-          #from_wallet = WalletThang.new(from_number)
-          #to_wallet = WalletThang.new(to_number)
+          raise same_person_message if from_number.number == to_number.number
 
           new_request = Request.new
           new_request.from_phone_number = from_number
@@ -65,12 +71,12 @@ class ApplicationController < ActionController::Base
           $twilio_client.account.sms.messages.create(:from => mega_from, :to => to_number.number, :body => "#{from_number.number} is requesting #{amount} for #{thing}. Confirm or Deny?")
 
         when "ok", "yes", "confirm"
-          raise "invalid syntax" unless parts.length == 1
+          raise syntax_message unless parts.length == 1
 
           from_number = PhoneNumber.find_by_number!(from)
           latest_request = Request.where(:to_id => from_number.id).order("created_at DESC").limit(1).first
 
-          raise "Unknown Request. Send 'help' for assistance. " unless latest_request
+          raise unknown_request_message unless latest_request
 
           $twilio_client.account.sms.messages.create(
             :from => mega_from,
@@ -87,12 +93,12 @@ class ApplicationController < ActionController::Base
           Request.where(:to_id => from_number.id).destroy_all
 
         when "no", "deny"
-          raise "invalid syntax" unless parts.length == 1
+          raise syntax_message unless parts.length == 1
 
           from_number = PhoneNumber.find_by_number!(from)
           latest_request = Request.where(:to_id => from_number.id).order("created_at DESC").limit(1).first
 
-          raise "Unknown Request. Send 'help' for assistance. " unless latest_request
+          raise "Unknown Request." unless latest_request
 
           $twilio_client.account.sms.messages.create(
               :from => mega_from,
@@ -109,10 +115,10 @@ class ApplicationController < ActionController::Base
           Request.where(:to_id => from_number.id).destroy_all
 
       else
-        raise "Unknown command '#{message}'. Send 'help' for options"
+        raise unknown_command_message
       end
     rescue => e
-      $twilio_client.account.sms.messages.create(:from => mega_from, :to => from, :body => e.message)
+      $twilio_client.account.sms.messages.create(:from => mega_from, :to => from, :body => e.message + " " + help_message)
       raise e
     end
 
