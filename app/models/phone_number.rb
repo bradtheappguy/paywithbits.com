@@ -8,7 +8,8 @@ class PhoneNumber < ActiveRecord::Base
 
   def generate_bitcoin_address
     unless self.bitcoin_address
-      self.bitcoin_address = WalletThang.generate_address
+      self.uuid = UUID.new.generate      
+      self.bitcoin_address = $bitcoin.getnewaddress(self.uuid)
     end
   end
 
