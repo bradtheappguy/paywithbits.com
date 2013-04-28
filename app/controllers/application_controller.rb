@@ -15,7 +15,7 @@ class ApplicationController < ActionController::Base
     same_person_message = "Same Person."
     help_message = "See: http://paywithbits.com/help"
 
-    commands = {"signup" => }
+    commands = {"signup" => "signup"}
     begin
       case parts.first
         when "signup"
