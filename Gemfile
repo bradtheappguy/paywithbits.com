@@ -24,7 +24,8 @@ end
 gem 'jquery-rails'
 
 gem 'bitcoin-ruby', :path => "vendor/gems/bitcoin-ruby-0.0.1"
-gem 'rubber'
+
+>>>>>>> 64acf6b01ceeab55efd714861adf07138f1eb281
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -44,3 +45,7 @@ gem 'open4'
 gem 'gelf'
 gem 'graylog2_exceptions', :git => 'git://github.com/wr0ngway/graylog2_exceptions.git'
 gem 'graylog2-resque'
+
+gem "sequel"
+gem "log4r"
+gem "em-dns"

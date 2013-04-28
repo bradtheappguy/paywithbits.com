@@ -1,0 +1,30 @@
+// Place all the styles related to the static controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {font-size: 2em;}
+
+h2 {font-size: 6em; line-height: 1.2em; color: #FFF;}
+
+body {
+  background: #16a085;
+  font: 16px/1.8em "helvetica neue", verdana, sans-serif;
+}
+
+.container {
+  width: 100%;
+  .inner {width: 980px; margin: 0 auto;}
+}
+
+header {
+  padding: 1em 0;
+  position: fixed;
+  background: yellowgreen;
+  li {display: inline-block;}
+}
+
+#hero {
+  padding-top: 5em;
+  background: url('phones.jpg') center center no-repeat;
+  height: 800px;
+}
