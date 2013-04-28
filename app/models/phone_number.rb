@@ -30,6 +30,10 @@ class PhoneNumber < ActiveRecord::Base
   end
 
   def send_bitcoin(recipient, amount, comment)
-    $bitcoin.sendfrom(self.account, recipient.bitcoin_address, amount, 0, comment, comment) unless self.balance < (amount + 0.001) || self.balance < 0
+    if self.balance < (amount + 0.0001) || self.balance < 0
+      raise "Insufficient funds."
+    else
+      $bitcoin.sendfrom(self.account, recipient.bitcoin_address, amount, 0, comment, comment) 
+    end
   end
 end
