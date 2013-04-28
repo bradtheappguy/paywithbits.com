@@ -25,7 +25,6 @@ gem 'jquery-rails'
 
 gem 'bitcoin-ruby', :path => "vendor/gems/bitcoin-ruby-0.0.1"
 
->>>>>>> 64acf6b01ceeab55efd714861adf07138f1eb281
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
