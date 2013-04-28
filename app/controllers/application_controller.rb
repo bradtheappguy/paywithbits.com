@@ -16,8 +16,6 @@ class ApplicationController < ActionController::Base
     help_message = "\n\nCommands:\n balance \n send \n request \n invite"
     commands = {"signup" => "signup"}
     
-    
-    
     begin
       case parts.first
         when "address"
@@ -40,7 +38,14 @@ class ApplicationController < ActionController::Base
           to = parts[2]
           thing = parts[3]
           from_number = PhoneNumber.normalize_and_find_by_number!(from)
-          to_number = PhoneNumber.normalize_and_find_by_number!(to)
+
+          begin
+            to_number = PhoneNumber.normalize_and_find_by_number!(to)
+          rescue => e
+            to.phony_formatted!(:normalize => :US, :format => :international, :spaces => '')
+            $twilio_client.account.sms.messages.create(:from => mega_from, :to => to, :body => "#{from_number.number} wants to give you #{amount}BTC. Reply with 'signup' to accept")
+            raise e
+          end
 
           raise same_person_message if from_number.number == to_number.number
 
