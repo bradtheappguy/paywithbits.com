@@ -16,7 +16,7 @@ h2 {
   font-weight: 800; 
 }
 
-h3 {
+h3,h4 {
   font-size: 2em;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -24,6 +24,18 @@ h3 {
   line-height: 2em;
 }
 
+h4 {
+  line-height: 1em;
+  font-size: 3em;
+  font-weight: 800;
+}
+
+
+p {font-size: 14px;}
+
+.gr {
+  margin-right: 20px;
+}
 
 a {font-size: 14px;}
 
@@ -93,8 +105,29 @@ header {
 }
 
 
-#content {
-  padding: 1em 0;
+#individuals, #business {
+  padding: 4em 0;
   color: #FFF;
   background: #34495e;
+  h3, h4 {text-align: center;}
+  ul {
+    margin-top: 3em;
+    li {
+      display: inline-block;
+      width: 230px;
+      text-align: center;
+      p{
+        margin-top: 1em;
+        text-align: left;
+      }
+    }
+  }
 }
+
+#business {
+  background: #2c3e50;
+}
+
+
+
+
