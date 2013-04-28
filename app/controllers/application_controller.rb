@@ -13,7 +13,7 @@ class ApplicationController < ActionController::Base
     unknown_request_message = "Unknown Request."
     syntax_message = "Invalid Syntax."
     same_person_message = "Same Person."
-    help_message = "\n\nCommands:\n balance \n send \n request \n invite"
+    help_message = "\n\nCommands:\n balance <amt> to <phone #> for <note>\n\n send <amt> to <phone #> for <note>\n\n request <amt> to <phone #> for <note>"
     commands = {"signup" => "signup"}
     
     
