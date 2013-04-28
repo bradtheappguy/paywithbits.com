@@ -138,6 +138,12 @@ class ApplicationController < ActionController::Base
         raise unknown_command_message
       end
     rescue => e
+
+      begin
+        canceling_number = PhoneNumber.normalize_and_find_by_number!(from)
+        Request.where(:to_id => canceling_number.id).destroy_all
+      end
+
       $twilio_client.account.sms.messages.create(:from => mega_from, :to => from, :body => e.message + " " + help_message)
       raise e
     end
