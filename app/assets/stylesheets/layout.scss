@@ -58,6 +58,11 @@
     }
   }
   
+  form {
+    input {width: 224px; padding: 8px; margin-bottom: 8px;}
+   input[type="submit"] {background: #3498db; border: none; width: 240px; color: #FFF;} 
+  }
+  
   .container {
     width: 100%;
     min-width:320px;
@@ -280,6 +285,11 @@
     a {color: #526f91;
       &:hover {color: #96abc4;}
     }
+  }
+  
+  form {
+    input {width: 284px; padding: 8px; margin-bottom: 8px;}
+   input[type="submit"] {background: #3498db; border: none; width: 300px; color: #FFF;} 
   }
 
 //  #lean_overlay {
