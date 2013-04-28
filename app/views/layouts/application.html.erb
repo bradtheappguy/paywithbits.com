@@ -5,18 +5,20 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700|Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+  
 </head>
 <body>
   
 <header class="container">
   <div class="inner cf">
-  <h1 class="fl">BITS</h1>
+  <h1 class="fl"><%= image_tag('logo.png') %></h1>
   <ul class="fr">
     <li>
-      <a href="#">login</a>
+      <a href="#">LOGIN</a>
     </li>
     <li>
-      <a href="#">register</a>
+      <a href="#" class="btn primary">REGISTER</a>
     </li>
   </ul> 
   </div>

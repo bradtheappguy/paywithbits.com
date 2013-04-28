@@ -1802,3 +1802,4344 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 18:16:05 -0400
 Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:16:35 -0400
+Connecting to database specified by database.yml
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (5.6ms)
+Compiled layout.css  (16ms)  (pid 75997)
+Compiled reset.css  (97ms)  (pid 75997)
+Compiled application.css  (135ms)  (pid 75997)
+Compiled jquery.js  (3ms)  (pid 75997)
+Compiled jquery_ujs.js  (0ms)  (pid 75997)
+Compiled static.js  (94ms)  (pid 75997)
+Compiled application.js  (168ms)  (pid 75997)
+Completed 200 OK in 436ms (Views: 435.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:16:36 -0400
+Served asset /application.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:16:36 -0400
+Served asset /layout.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:16:36 -0400
+Served asset /reset.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:16:36 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:16:36 -0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:16:36 -0400
+Served asset /static.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:16:36 -0400
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:16:36 -0400
+Served asset /phones.jpg - 304 Not Modified (12ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:18:04 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:18:04 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:18:04 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:18:04 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:18:04 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:18:04 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:18:04 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:18:04 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:18:04 -0400
+Served asset /logo.png - 200 OK (8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:19:02 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:19:02 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:19:02 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:19:02 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:19:02 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:19:02 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:19:02 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:19:02 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:19:02 -0400
+Served asset /logo.png - 200 OK (5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:19:38 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (8ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:19:38 -0400
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:19:38 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:19:38 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:19:38 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:19:38 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:19:38 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:19:38 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:19:38 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:19:38 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:22:03 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (15ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 82ms (Views: 81.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:22:03 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:22:03 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:22:03 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:22:03 -0400
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:22:03 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:22:03 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:22:03 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:22:04 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:22:04 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:22:24 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (15ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 40ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:22:24 -0400
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:22:24 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:22:24 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:22:24 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:22:24 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:22:24 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:22:24 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:22:24 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:22:24 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:22:34 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (14ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 78ms (Views: 77.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:22:34 -0400
+Served asset /layout.css - 200 OK (12ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:22:34 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:22:34 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:22:34 -0400
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:22:34 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:22:34 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:22:34 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:22:34 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:22:34 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:23:04 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled layout.css  (15ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 42ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:23:04 -0400
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:23:04 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:23:04 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:23:04 -0400
+Served asset /layout.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:23:04 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:23:04 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:23:04 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:23:04 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:23:04 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:23:21 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled reset.css  (97ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 126ms (Views: 125.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:23:21 -0400
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:23:21 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:23:21 -0400
+Served asset /reset.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:23:21 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:23:21 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:23:21 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:23:21 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:23:21 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:23:41 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (16ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 43ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:23:41 -0400
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:23:41 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:23:41 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:23:41 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:23:41 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:23:41 -0400
+Served asset /layout.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:23:41 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:23:41 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:23:41 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:23:52 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (15ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 77ms (Views: 76.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:23:52 -0400
+Served asset /application.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:23:52 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:23:52 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:23:52 -0400
+Served asset /layout.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:23:52 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:23:52 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:23:52 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:23:52 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:23:52 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:24:13 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled layout.css  (16ms)  (pid 75997)
+Compiled application.css  (2ms)  (pid 75997)
+Completed 200 OK in 43ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:24:13 -0400
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:24:13 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:24:13 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:24:13 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:24:13 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:24:13 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:24:13 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:24:13 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:24:13 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:24:44 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (16ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 82ms (Views: 81.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:24:44 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:24:44 -0400
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:24:44 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:24:44 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:24:44 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:24:44 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:24:44 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:24:44 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:24:44 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:25:08 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (17ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 43ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:25:08 -0400
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:25:08 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:25:08 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:25:08 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:25:08 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:25:08 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:25:08 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:25:08 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:25:08 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:25:21 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled layout.css  (17ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 82ms (Views: 81.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:25:21 -0400
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:25:21 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:25:21 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:25:21 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:25:21 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:25:21 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:25:21 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:25:22 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:25:22 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:26:01 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (17ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 43ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:26:01 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:26:01 -0400
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:26:01 -0400
+Served asset /layout.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:26:01 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:26:01 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:26:01 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:26:01 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:26:01 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:26:01 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:26:07 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled layout.css  (24ms)  (pid 75997)
+Compiled application.css  (2ms)  (pid 75997)
+Completed 200 OK in 104ms (Views: 103.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:26:07 -0400
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:26:07 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:26:07 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:26:07 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:26:07 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:26:07 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:26:07 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:26:07 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:26:07 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:26:13 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled layout.css  (17ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 43ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:26:13 -0400
+Served asset /layout.css - 200 OK (16ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:26:13 -0400
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:26:13 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:26:13 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:26:13 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:26:13 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:26:13 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:26:13 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:26:13 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:26:20 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled layout.css  (20ms)  (pid 75997)
+Compiled application.css  (2ms)  (pid 75997)
+Completed 200 OK in 99ms (Views: 98.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:26:20 -0400
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:26:20 -0400
+Served asset /layout.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:26:20 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:26:20 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:26:20 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:26:20 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:26:20 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:26:20 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:26:20 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:26:47 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled reset.css  (59ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 86ms (Views: 85.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:26:47 -0400
+Served asset /reset.css - 200 OK (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:26:47 -0400
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:26:47 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:26:47 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:26:47 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:26:47 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:26:47 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:26:47 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:27:11 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (17ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 76ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:27:11 -0400
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:27:11 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:27:11 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:27:11 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:27:11 -0400
+Served asset /layout.css - 200 OK (3ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:27:11 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:27:11 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:27:11 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:27:11 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:27:30 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled layout.css  (18ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 46ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:27:30 -0400
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:27:30 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:27:30 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:27:30 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:27:30 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:27:30 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:27:30 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:27:30 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:27:30 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:27:45 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:27:45 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:27:45 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:27:45 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:27:45 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:27:45 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:27:45 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:27:45 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:27:45 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:28:07 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled layout.css  (19ms)  (pid 75997)
+Compiled application.css  (2ms)  (pid 75997)
+Completed 200 OK in 47ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:28:07 -0400
+Served asset /application.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:28:07 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:28:07 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:28:07 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:28:07 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:28:07 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:28:07 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:28:07 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:28:07 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:29:16 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (22ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 48ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:29:16 -0400
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:29:16 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:29:16 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:29:16 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:29:16 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:29:16 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:29:16 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:29:16 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:29:16 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:29:49 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (31ms)  (pid 75997)
+Compiled application.css  (2ms)  (pid 75997)
+Completed 200 OK in 63ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:29:49 -0400
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:29:49 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:29:49 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:29:49 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:29:49 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:29:49 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:29:49 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:29:49 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:29:49 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:32:10 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:32:10 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:32:10 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:32:10 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:32:10 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:32:10 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:32:10 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:32:10 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:32:10 -0400
+Served asset /logo.png - 200 OK (7ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:32:10 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:35:12 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (22ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:35:12 -0400
+Served asset /application.css - 304 Not Modified (61ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:35:12 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:35:12 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:35:12 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:35:12 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:35:12 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:35:12 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:35:12 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:35:12 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:35:33 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (22ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 48ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:35:33 -0400
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:35:33 -0400
+Served asset /layout.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:35:33 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:35:33 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:35:33 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:35:33 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:35:33 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:35:33 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:35:33 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:35:38 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled layout.css  (21ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 48ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:35:38 -0400
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:35:38 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:35:38 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:35:38 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:35:38 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:35:38 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:35:38 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:35:38 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:35:38 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:35:44 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled layout.css  (21ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 47ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:35:44 -0400
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:35:44 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:35:44 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:35:44 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:35:44 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:35:44 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:35:44 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:35:44 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:35:44 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:39:54 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:39:54 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:39:54 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:39:54 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:39:54 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:39:54 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:40:56 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (wrong number of arguments (3 for 4) for `rgba'
+  (in /Users/brett/Sites/Hack/disrupt13/app/assets/stylesheets/layout.scss)):
+    2: <html>
+    3: <head>
+    4:   <title>Bits</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8:   <link href='http://fonts.googleapis.com/css?family=PT+Sans|Open+Sans' rel='stylesheet' type='text/css'>
+  app/assets/stylesheets/layout.scss:28
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1603570010932420378_70113431696200'
+
+
+  Rendered /Users/brett/.rvm/gems/ruby-1.9.3-p194@bitcoin/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /Users/brett/.rvm/gems/ruby-1.9.3-p194@bitcoin/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/brett/.rvm/gems/ruby-1.9.3-p194@bitcoin/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:41:12 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (21ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:41:12 -0400
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:41:12 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:41:12 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:41:12 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:41:12 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:41:12 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:41:12 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:41:12 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:41:12 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:41:18 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (21ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 47ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:41:18 -0400
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:41:18 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:41:18 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:41:18 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:41:18 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:41:18 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:41:18 -0400
+Served asset /application.js - 304 Not Modified (42ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:41:18 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:41:18 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:42:09 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (24ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 53ms (Views: 52.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:42:09 -0400
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:42:09 -0400
+Served asset /layout.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:42:09 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:42:09 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:42:09 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:42:09 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:42:09 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:42:09 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:42:09 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:42:32 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled layout.css  (23ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:42:32 -0400
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:42:32 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:42:32 -0400
+Served asset /layout.css - 200 OK (4ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:42:32 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:42:32 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:42:32 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:42:32 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:42:32 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:42:32 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:42:40 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (25ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 50ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:42:40 -0400
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:42:40 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:42:40 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:42:40 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:42:40 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:42:40 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:42:40 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:42:40 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:42:40 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:42:57 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:42:57 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:42:57 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:42:57 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:42:57 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:42:57 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:42:57 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:42:57 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:42:57 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:43:12 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (24ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 52ms (Views: 51.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:43:12 -0400
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:43:12 -0400
+Served asset /layout.css - 200 OK (3ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:43:12 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:43:12 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:43:12 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:43:12 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:43:12 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:43:12 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:43:12 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:43:27 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (23ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 51ms (Views: 51.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:43:28 -0400
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:43:28 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:43:28 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:43:28 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:43:28 -0400
+Served asset /layout.css - 200 OK (3ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:43:28 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:43:28 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:43:28 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:43:28 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:44:05 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:44:05 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:44:05 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:44:05 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:44:05 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:44:05 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:44:05 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:44:05 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:44:05 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:44:50 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:44:50 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:44:50 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:44:50 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:44:50 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:44:50 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:44:50 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:44:50 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:44:50 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:45:20 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:45:20 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:45:20 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:45:20 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:45:20 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:45:20 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:45:20 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:45:20 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:45:21 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:46:44 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (22ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 48ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:46:44 -0400
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:46:44 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:46:44 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:46:44 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:46:44 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:46:44 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:46:44 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:46:45 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:46:45 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:46:57 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (22ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 48ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:46:58 -0400
+Served asset /application.css - 304 Not Modified (55ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:46:58 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:46:58 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:46:58 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:46:58 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:46:58 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:46:58 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:46:58 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:46:58 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:50:30 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled layout.css  (25ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 52ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:50:30 -0400
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:50:30 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:50:30 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:50:30 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:50:30 -0400
+Served asset /layout.css - 200 OK (3ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:50:30 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:50:30 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:50:30 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:50:30 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:50:54 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:50:54 -0400
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:50:54 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:50:54 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:50:54 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:50:54 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:50:54 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:50:54 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:50:54 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:51:12 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (24ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 88ms (Views: 88.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:51:12 -0400
+Served asset /application.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:51:12 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:51:12 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:51:12 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:51:12 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:51:12 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:51:12 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:51:12 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:51:12 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:51:52 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (25ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 50ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:51:52 -0400
+Served asset /application.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:51:53 -0400
+Served asset /layout.css - 200 OK (3ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:51:53 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:51:53 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:51:53 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:51:53 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:51:53 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:51:53 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:51:53 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:52:23 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:52:23 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:52:23 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:52:23 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:52:23 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:52:23 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:52:23 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:52:23 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:52:23 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:53:10 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.6ms)
+Compiled layout.css  (26ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 55ms (Views: 54.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:53:10 -0400
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:53:10 -0400
+Served asset /layout.css - 200 OK (9ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:53:10 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:53:10 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:53:10 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:53:10 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:53:10 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:53:10 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:53:10 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:53:21 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (28ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 59ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:53:21 -0400
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:53:21 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:53:21 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:53:21 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:53:21 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:53:21 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:53:21 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:53:21 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:53:21 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:53:33 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled layout.css  (26ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 91ms (Views: 90.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:53:33 -0400
+Served asset /application.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:53:33 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:53:33 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:53:33 -0400
+Served asset /layout.css - 200 OK (1ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:53:33 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:53:33 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:53:33 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:53:33 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:53:33 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:53:49 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled layout.css  (27ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 55ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:53:49 -0400
+Served asset /application.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:53:49 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:53:49 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:53:49 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:53:49 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:53:49 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:53:49 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:53:50 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:53:50 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:54:01 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (25ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 51ms (Views: 51.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:54:01 -0400
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:54:01 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:54:01 -0400
+Served asset /layout.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:54:01 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:54:01 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:54:01 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:54:01 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:54:01 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:54:02 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:54:10 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (27ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 54ms (Views: 54.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:54:10 -0400
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:54:10 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:54:10 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:54:10 -0400
+Served asset /layout.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:54:10 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:54:10 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:54:10 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:54:10 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:54:10 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:54:38 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.4ms)
+Compiled layout.css  (65ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 98ms (Views: 97.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:54:38 -0400
+Served asset /application.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:54:38 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:54:38 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:54:38 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:54:38 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:54:38 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:54:38 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:54:38 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:54:38 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:55:00 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.5ms)
+Compiled layout.css  (27ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 55ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:55:00 -0400
+Served asset /application.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:55:00 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:55:00 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:55:00 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:55:00 -0400
+Served asset /layout.css - 200 OK (6ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:55:00 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:55:00 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:55:00 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:55:00 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:55:12 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (65ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 94ms (Views: 93.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:55:12 -0400
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:55:12 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:55:12 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:55:12 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:55:12 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:55:12 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:55:12 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:55:12 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:55:12 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:55:40 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (28ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 54ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:55:40 -0400
+Served asset /application.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:55:40 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:55:40 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:55:40 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:55:40 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:55:40 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:55:40 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:55:40 -0400
+Served asset /logo.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:55:40 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:56:17 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled layout.css  (46ms)  (pid 75997)
+Compiled application.css  (2ms)  (pid 75997)
+Completed 200 OK in 128ms (Views: 128.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:56:17 -0400
+Served asset /application.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:56:17 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:56:17 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:56:17 -0400
+Served asset /layout.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:56:17 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:56:17 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:56:17 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:56:17 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:56:17 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:56:53 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled layout.css  (28ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 54ms (Views: 54.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:56:53 -0400
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:56:53 -0400
+Served asset /layout.css - 200 OK (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:56:53 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:56:53 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:56:53 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:56:53 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:56:53 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:56:53 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:56:53 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:57:14 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (27ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 56ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:57:14 -0400
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:57:14 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:57:14 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:57:14 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:57:14 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:57:14 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:57:14 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:57:14 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:57:14 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:57:19 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled layout.css  (29ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 55ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:57:19 -0400
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:57:19 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:57:19 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:57:19 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:57:19 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:57:19 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:57:19 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:57:19 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:57:19 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:57:30 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled layout.css  (28ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 95ms (Views: 95.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:57:30 -0400
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:57:30 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:57:30 -0400
+Served asset /layout.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:57:30 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:57:30 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:57:30 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:57:30 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:57:30 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:57:30 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:58:01 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.5ms)
+Compiled layout.css  (28ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 55ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:58:01 -0400
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:58:01 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:58:01 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:58:01 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:58:01 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:58:01 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:58:01 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:58:01 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:58:01 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 21:58:10 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (29ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 57ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 21:58:10 -0400
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 21:58:10 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 21:58:10 -0400
+Served asset /layout.css - 200 OK (3ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 21:58:10 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 21:58:10 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 21:58:10 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 21:58:10 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 21:58:11 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 21:58:11 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 22:00:50 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (27ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 55ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 22:00:50 -0400
+Served asset /application.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 22:00:50 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 22:00:50 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 22:00:50 -0400
+Served asset /layout.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 22:00:50 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 22:00:50 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 22:00:50 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 22:00:50 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 22:00:50 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 22:01:10 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (27ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 92ms (Views: 91.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 22:01:10 -0400
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 22:01:10 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 22:01:10 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 22:01:10 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 22:01:10 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 22:01:24 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled layout.css  (29ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 57ms (Views: 56.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 22:01:24 -0400
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 22:01:24 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 22:01:24 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 22:01:24 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 22:01:24 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 22:01:24 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 22:01:24 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 22:01:24 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 22:01:24 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 22:01:33 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (66ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 96ms (Views: 96.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 22:01:33 -0400
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 22:01:33 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 22:01:33 -0400
+Served asset /layout.css - 200 OK (3ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 22:01:33 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 22:01:33 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 22:01:33 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 22:01:33 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 22:01:33 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 22:01:33 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 22:01:42 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled layout.css  (29ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 57ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 22:01:42 -0400
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 22:01:42 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 22:01:42 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 22:01:42 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 22:01:42 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 22:01:42 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 22:01:42 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 22:01:43 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 22:01:43 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 22:02:06 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (65ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 94ms (Views: 93.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 22:02:06 -0400
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 22:02:06 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 22:02:06 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 22:02:06 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 22:02:06 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 22:02:06 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 22:02:06 -0400
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 22:02:06 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 22:02:06 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 22:04:07 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (29ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 56ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 22:04:07 -0400
+Served asset /application.css - 304 Not Modified (27ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 22:04:07 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 22:04:07 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 22:04:07 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 22:04:07 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 22:04:07 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 22:04:07 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:04:07 -0400
+Served asset /phonesletterbox.jpg - 200 OK (56ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 22:04:08 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 22:04:15 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 22:04:15 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 22:04:15 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 22:04:15 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 22:04:15 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 22:04:15 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:04:15 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 22:06:24 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (29ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 61ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 22:06:24 -0400
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 22:06:24 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 22:06:24 -0400
+Served asset /layout.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 22:06:24 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 22:06:24 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 22:06:24 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 22:06:24 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 22:06:24 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phones.jpg" for 127.0.0.1 at 2013-04-27 22:06:24 -0400
+Served asset /phones.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 22:06:47 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled layout.css  (28ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 54ms (Views: 54.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 22:06:47 -0400
+Served asset /application.css - 304 Not Modified (64ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 22:06:47 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 22:06:47 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 22:06:47 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 22:06:47 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 22:06:47 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 22:06:47 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 22:06:47 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:06:47 -0400
+Served asset /phonesletterbox.jpg - 200 OK (6ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:02 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:03 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:04 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:04 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:11 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:11 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 22:07:40 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled layout.css  (29ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 64ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 22:07:40 -0400
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 22:07:40 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 22:07:40 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 22:07:40 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 22:07:40 -0400
+Served asset /layout.css - 200 OK (5ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 22:07:40 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 22:07:40 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 22:07:40 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:40 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:55 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:56 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:56 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:56 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:56 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:56 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:57 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:57 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:57 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:57 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:57 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:57 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:57 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:57 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:57 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:57 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:58 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:58 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:58 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:58 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:58 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:58 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:58 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:58 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:58 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:58 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:58 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:58 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:59 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:59 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:59 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:59 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:59 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:59 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:59 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:59 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:59 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:59 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:59 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:07:59 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:00 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:00 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:00 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:00 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:00 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:00 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:00 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:00 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:00 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:01 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:01 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:01 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:04 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:04 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:04 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:04 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:04 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:04 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:05 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:05 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:05 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:05 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:05 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:05 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:05 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:06 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:06 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:06 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:08:08 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 22:09:43 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 22:09:43 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 22:09:43 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 22:09:43 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 22:09:43 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 22:09:43 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 22:09:43 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 22:09:43 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 22:09:43 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:09:43 -0400
+Served asset /phonesletterbox.jpg - 200 OK (7ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:09:59 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:09:59 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:09:59 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:00 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:00 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:00 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:00 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:00 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:00 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:00 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:00 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:01 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:01 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:01 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:01 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:01 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:01 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:02 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:03 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:03 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:03 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:03 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:05 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:06 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:06 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:07 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:07 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:07 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:08 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:08 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:08 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:08 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:08 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:08 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:08 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:08 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:08 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:08 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:08 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:08 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:09 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:09 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:09 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:09 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:09 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:09 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:09 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:09 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:09 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:09 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:11 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:29 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:29 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:29 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:29 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:29 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:30 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:30 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:30 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:31 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:31 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:31 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:31 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:34 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:34 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:34 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:34 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:34 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:35 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:35 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:35 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:35 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:35 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:35 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:36 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:36 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:36 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:36 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:36 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:37 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:37 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:37 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:37 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:37 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:39 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:41 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:41 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:42 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 22:10:54 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (29ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 61ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 22:10:54 -0400
+Served asset /application.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 22:10:54 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 22:10:54 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 22:10:54 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 22:10:54 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 22:10:54 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 22:10:54 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 22:10:54 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:10:54 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 22:12:12 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 22:12:12 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 22:12:12 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 22:12:12 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 22:12:12 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 22:12:12 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 22:12:12 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 22:12:12 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 22:12:12 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:12:12 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 22:12:27 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 22:12:27 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 22:12:27 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 22:12:27 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 22:12:27 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 22:12:27 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 22:12:27 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 22:12:27 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:12:27 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 22:12:27 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 22:13:17 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (36ms)  (pid 75997)
+Compiled application.css  (2ms)  (pid 75997)
+Completed 200 OK in 74ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 22:13:17 -0400
+Served asset /layout.css - 200 OK (7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 22:13:17 -0400
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 22:13:17 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 22:13:17 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 22:13:17 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 22:13:17 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 22:13:17 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 22:13:17 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:13:17 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 22:13:49 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Compiled layout.css  (27ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 93ms (Views: 93.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 22:13:50 -0400
+Served asset /application.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 22:13:50 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 22:13:50 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 22:13:50 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 22:13:50 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 22:13:50 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 22:13:50 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 22:13:50 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:13:50 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 22:13:59 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 22:13:59 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 22:13:59 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 22:13:59 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 22:13:59 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 22:13:59 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 22:13:59 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 22:13:59 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 22:14:00 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:14:00 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-27 22:14:20 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Compiled layout.css  (32ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 58ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 22:14:20 -0400
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-27 22:14:20 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 22:14:20 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 22:14:20 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-27 22:14:20 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-27 22:14:20 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 22:14:20 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-27 22:14:20 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-27 22:14:20 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
