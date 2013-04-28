@@ -16,6 +16,9 @@ class ApplicationController < ActionController::Base
     help_message = "See: http://paywithbits.com/help"
 
     commands = {"signup" => "signup"}
+    
+    
+    
     begin
       case parts.first
         when "signup"
@@ -27,11 +30,12 @@ class ApplicationController < ActionController::Base
           $twilio_client.account.sms.messages.create(:from => mega_from, :to => from, :body => "Thank you for signing up! " + help_message)
 
         when "send"
-          raise syntax_message unless parts.length == 6
-
+          raise syntax_message unless parts.length > 2
+          parts = parts.reject! {|part| part == "to" || part == "for" }
+          
           amount = parts[1]
-          to = parts[3]
-          thing = parts[5]
+          to = parts[2]
+          thing = parts[3]
           from_number = PhoneNumber.normalize_and_find_by_number!(from)
           to_number = PhoneNumber.normalize_and_find_by_number!(to)
 
