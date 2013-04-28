@@ -77,6 +77,8 @@ class ApplicationController < ActionController::Base
 
           raise unknown_request_message unless latest_request
 
+          from_number.send_bitcoin(latest_request.from_phone_number.number, latest_request.amount.to_f, latest_request.thing)
+
           $twilio_client.account.sms.messages.create(
             :from => mega_from,
             :to => latest_request.to_phone_number.number,
