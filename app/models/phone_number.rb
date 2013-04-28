@@ -11,4 +11,8 @@ class PhoneNumber < ActiveRecord::Base
       self.bitcoin_address = WalletThang.generate_address
     end
   end
+
+  def balance
+     WalletThang.get_balance(self.bitcon_address)
+  end
 end
