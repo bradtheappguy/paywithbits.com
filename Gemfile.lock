@@ -1,12 +1,4 @@
 GIT
-  remote: git://github.com/lian/bitcoin-ruby.git
-  revision: c204707e0b94ea5d0e4737e96d055156749a8b0e
-  specs:
-    bitcoin-ruby (0.0.1)
-      eventmachine
-      rake (>= 0.8.0)
-
-GIT
   remote: git://github.com/wr0ngway/graylog2_exceptions.git
   revision: 797924acd1aa89852605230812d8cfd27da90969
   specs:
@@ -166,7 +158,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bitcoin-ruby!
   coffee-rails (~> 3.2.1)
   em-dns
   gelf
