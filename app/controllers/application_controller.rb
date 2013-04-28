@@ -20,6 +20,10 @@ class ApplicationController < ActionController::Base
     
     begin
       case parts.first
+        when "address"
+          from_number = PhoneNumber.normalize_and_find_by_number!(from)
+          $twilio_client.account.sms.messages.create(:from => mega_from, :to => from, :body => from_number.bitcoin_address)
+
         when "signup"
           raise syntax_message unless parts.length == 1
 
@@ -31,7 +35,7 @@ class ApplicationController < ActionController::Base
         when "send"
           raise syntax_message unless parts.length > 2
           parts = parts.reject! {|part| part == "to" || part == "for" }
-          
+          raise syntax_message if parts.nil? 
           amount = parts[1]
           to = parts[2]
           thing = parts[3]
