@@ -1,9 +1,14 @@
 class PhoneNumber < ActiveRecord::Base
-  attr_accessible :number, :wallet
+  attr_accessible :number, :bitcoin_address
 
   validates_presence_of :number
-  validates_presence_of :wallet
 
   #validates :balance, :numericality => { :greater_than => 0.0 }
+  before_create :generate_bitcoin_address
 
+  def generate_bitcoin_address
+    unless self.bitcoin_address
+      self.bitcoin_address = "666"
+    end
+  end
 end

@@ -10,7 +10,7 @@ class ApplicationController < ActionController::Base
         when "signup"
           raise "invalid syntax" unless parts.length == 1
 
-          new_number = PhoneNumber.new(:number => from, :wallet => "123")
+          new_number = PhoneNumber.new(:number => from)
           new_number.save!
           $twilio_client.account.sms.messages.create(:from => mega_from, :to => from, :body => "thanks for signing up")
 
