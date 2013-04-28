@@ -48,3 +48,5 @@ gem 'graylog2-resque'
 gem "sequel"
 gem "log4r"
 gem "em-dns"
+
+gem "localtunnel"
