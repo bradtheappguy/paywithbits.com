@@ -31,8 +31,8 @@ class ApplicationController < ActionController::Base
           amount = parts[1]
           to = parts[3]
           thing = parts[5]
-          from_number = PhoneNumber.find_by_number!(from)
-          to_number = PhoneNumber.find_by_number!(to)
+          from_number = PhoneNumber.normalize_and_find_by_number!(from)
+          to_number = PhoneNumber.normalize_and_find_by_number!(to)
 
           raise same_person_message if from_number.number == to_number.number
 
@@ -46,7 +46,7 @@ class ApplicationController < ActionController::Base
         when "balance"
           raise syntax_message unless parts.length == 1
 
-          from_number = PhoneNumber.find_by_number!(from)
+          from_number = PhoneNumber.normalize_and_find_by_number!(from)
           $twilio_client.account.sms.messages.create(:from => mega_from, :to => from_number.number, :body => "You have #{from_number.balance}BTC.")
 
         when "request"
@@ -55,8 +55,8 @@ class ApplicationController < ActionController::Base
           amount = parts[1]
           to = parts[3]
           thing = parts[5]
-          from_number = PhoneNumber.find_by_number!(from)
-          to_number = PhoneNumber.find_by_number!(to)
+          from_number = PhoneNumber.normalize_and_find_by_number!(from)
+          to_number = PhoneNumber.normalize_and_find_by_number!(to)
 
           raise same_person_message if from_number.number == to_number.number
 
@@ -73,7 +73,7 @@ class ApplicationController < ActionController::Base
         when "ok", "yes", "confirm"
           raise syntax_message unless parts.length == 1
 
-          from_number = PhoneNumber.find_by_number!(from)
+          from_number = PhoneNumber.normalize_and_find_by_number!(from)
           latest_request = Request.where(:to_id => from_number.id).order("created_at DESC").limit(1).first
 
           raise unknown_request_message unless latest_request
@@ -95,7 +95,7 @@ class ApplicationController < ActionController::Base
         when "no", "deny"
           raise syntax_message unless parts.length == 1
 
-          from_number = PhoneNumber.find_by_number!(from)
+          from_number = PhoneNumber.normalize_and_find_by_number!(from)
           latest_request = Request.where(:to_id => from_number.id).order("created_at DESC").limit(1).first
 
           raise "Unknown Request." unless latest_request
