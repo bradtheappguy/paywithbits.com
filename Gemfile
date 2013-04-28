@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.9'
+gem 'rails'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -23,7 +23,6 @@ end
 
 gem 'jquery-rails'
 
-gem 'bitcoin-ruby', :path => "vendor/gems/bitcoin-ruby-0.0.1"
 
 
 # To use ActiveModel has_secure_password
@@ -48,3 +47,5 @@ gem 'graylog2-resque'
 gem "sequel"
 gem "log4r"
 gem "em-dns"
+
+gem "localtunnel"
