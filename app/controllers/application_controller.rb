@@ -15,6 +15,7 @@ class ApplicationController < ActionController::Base
     same_person_message = "Same Person."
     help_message = "See: http://paywithbits.com/help"
 
+    commands = {"signup" => }
     begin
       case parts.first
         when "signup"
@@ -111,6 +112,21 @@ class ApplicationController < ActionController::Base
           )
 
           Request.where(:to_id => from_number.id).destroy_all
+       when "help"
+         help = {
+                 "signup"  => "command: send <amount> to <phone number> for <note>",
+                 "balance" => "command: balance <amount> to <phone number> for <note>",
+                 "send"    => "command: send <amount> to <phone number> for <note>",
+                 "request" => "command: request <amount> from <phone number> for <note>"
+                }
+         msg = help[parts[1]]
+         $twilio_client.account.sms.messages.create(
+              :from => mega_from,
+              :to => from,
+              :body => msg
+         )
+
+
 
       else
         raise unknown_command_message
