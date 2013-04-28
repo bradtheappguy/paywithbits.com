@@ -65,6 +65,10 @@ header {
   padding-top: 10em;
   background: url('phonesletterbox.jpg') center center no-repeat;
   height: 520px;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   h2, h3 {
     text-align: center;
     text-shadow:rgba(64, 64, 64, 0.3) 2px 2px 2px; 
