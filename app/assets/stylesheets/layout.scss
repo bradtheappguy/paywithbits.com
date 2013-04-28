@@ -40,7 +40,7 @@ p {font-size: 14px;}
 a {font-size: 14px;}
 
 body {
-  background: #16a085;
+  background: #1b242f;
   font: 16px/1.8em 'Open Sans', sans-serif;
 }
 
@@ -126,6 +126,15 @@ header {
 
 #business {
   background: #2c3e50;
+}
+
+footer {
+  text-align: center;
+  color: #34495e;
+  padding: 0.5em 0;
+  a {color: #526f91;
+    &:hover {color: #96abc4;}
+  }
 }
 
 

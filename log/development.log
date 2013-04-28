@@ -9270,3 +9270,1584 @@ Served asset /merch_three.png - 304 Not Modified (0ms)
 
 Started GET "/assets/merch_four.png" for 127.0.0.1 at 2013-04-28 00:05:48 -0400
 Served asset /merch_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-28 00:07:40 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.6ms)
+Compiled layout.css  (35ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 68ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-28 00:07:40 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-28 00:07:40 -0400
+Served asset /application.css - 304 Not Modified (46ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-28 00:07:40 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-28 00:07:40 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-28 00:07:40 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-28 00:07:40 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-28 00:07:40 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-28 00:07:40 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_three.png" for 127.0.0.1 at 2013-04-28 00:07:40 -0400
+Served asset /indiv_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-28 00:07:41 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_one.png" for 127.0.0.1 at 2013-04-28 00:07:41 -0400
+Served asset /indiv_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_two.png" for 127.0.0.1 at 2013-04-28 00:07:41 -0400
+Served asset /indiv_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_four.png" for 127.0.0.1 at 2013-04-28 00:07:41 -0400
+Served asset /indiv_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_two.png" for 127.0.0.1 at 2013-04-28 00:07:41 -0400
+Served asset /merch_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_three.png" for 127.0.0.1 at 2013-04-28 00:07:41 -0400
+Served asset /merch_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_four.png" for 127.0.0.1 at 2013-04-28 00:07:41 -0400
+Served asset /merch_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_one.png" for 127.0.0.1 at 2013-04-28 00:07:41 -0400
+Served asset /merch_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-28 00:08:36 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 78ms
+
+ActionView::Template::Error (undefined local variable or method `time' for #<#<Class:0x007f891a222b80>:0x007f891d00ba88>):
+    28: 
+    29: 
+    30: <footer>
+    31:   <%= time.date.today %>
+    32: </footer>
+    33: 
+    34: </body>
+  app/views/layouts/application.html.erb:31:in `_app_views_layouts_application_html_erb___1603570010932420378_70113414642580'
+
+
+  Rendered /Users/brett/.rvm/gems/ruby-1.9.3-p194@bitcoin/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/brett/.rvm/gems/ruby-1.9.3-p194@bitcoin/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/brett/.rvm/gems/ruby-1.9.3-p194@bitcoin/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-28 00:09:27 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-28 00:09:27 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-28 00:09:27 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-28 00:09:27 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-28 00:09:27 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-28 00:09:27 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-28 00:09:27 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-28 00:09:27 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-28 00:09:28 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_two.png" for 127.0.0.1 at 2013-04-28 00:09:28 -0400
+Served asset /indiv_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_one.png" for 127.0.0.1 at 2013-04-28 00:09:28 -0400
+Served asset /indiv_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_four.png" for 127.0.0.1 at 2013-04-28 00:09:28 -0400
+Served asset /indiv_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_three.png" for 127.0.0.1 at 2013-04-28 00:09:28 -0400
+Served asset /indiv_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_one.png" for 127.0.0.1 at 2013-04-28 00:09:28 -0400
+Served asset /merch_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_three.png" for 127.0.0.1 at 2013-04-28 00:09:28 -0400
+Served asset /merch_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_two.png" for 127.0.0.1 at 2013-04-28 00:09:28 -0400
+Served asset /merch_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_four.png" for 127.0.0.1 at 2013-04-28 00:09:28 -0400
+Served asset /merch_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-28 00:09:36 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-28 00:09:36 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-28 00:09:36 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-28 00:09:36 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-28 00:09:36 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-28 00:09:36 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-28 00:09:36 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-28 00:09:36 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_one.png" for 127.0.0.1 at 2013-04-28 00:09:36 -0400
+Served asset /indiv_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_four.png" for 127.0.0.1 at 2013-04-28 00:09:36 -0400
+Served asset /indiv_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-28 00:09:36 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_two.png" for 127.0.0.1 at 2013-04-28 00:09:36 -0400
+Served asset /indiv_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_three.png" for 127.0.0.1 at 2013-04-28 00:09:36 -0400
+Served asset /indiv_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_one.png" for 127.0.0.1 at 2013-04-28 00:09:36 -0400
+Served asset /merch_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_two.png" for 127.0.0.1 at 2013-04-28 00:09:36 -0400
+Served asset /merch_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_three.png" for 127.0.0.1 at 2013-04-28 00:09:36 -0400
+Served asset /merch_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_four.png" for 127.0.0.1 at 2013-04-28 00:09:36 -0400
+Served asset /merch_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-28 00:09:42 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-28 00:09:42 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-28 00:09:42 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-28 00:09:43 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-28 00:09:43 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-28 00:09:43 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-28 00:09:43 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-28 00:09:43 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_one.png" for 127.0.0.1 at 2013-04-28 00:09:43 -0400
+Served asset /indiv_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_two.png" for 127.0.0.1 at 2013-04-28 00:09:43 -0400
+Served asset /indiv_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_three.png" for 127.0.0.1 at 2013-04-28 00:09:43 -0400
+Served asset /indiv_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-28 00:09:43 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_four.png" for 127.0.0.1 at 2013-04-28 00:09:43 -0400
+Served asset /indiv_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_one.png" for 127.0.0.1 at 2013-04-28 00:09:43 -0400
+Served asset /merch_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_two.png" for 127.0.0.1 at 2013-04-28 00:09:43 -0400
+Served asset /merch_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_three.png" for 127.0.0.1 at 2013-04-28 00:09:43 -0400
+Served asset /merch_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_four.png" for 127.0.0.1 at 2013-04-28 00:09:43 -0400
+Served asset /merch_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-28 00:10:47 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-28 00:10:48 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-28 00:10:48 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-28 00:10:48 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-28 00:10:48 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-28 00:10:48 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-28 00:10:48 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-28 00:10:48 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_one.png" for 127.0.0.1 at 2013-04-28 00:10:48 -0400
+Served asset /indiv_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_two.png" for 127.0.0.1 at 2013-04-28 00:10:48 -0400
+Served asset /indiv_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_four.png" for 127.0.0.1 at 2013-04-28 00:10:48 -0400
+Served asset /indiv_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_three.png" for 127.0.0.1 at 2013-04-28 00:10:48 -0400
+Served asset /indiv_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-28 00:10:48 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_one.png" for 127.0.0.1 at 2013-04-28 00:10:48 -0400
+Served asset /merch_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_two.png" for 127.0.0.1 at 2013-04-28 00:10:48 -0400
+Served asset /merch_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_three.png" for 127.0.0.1 at 2013-04-28 00:10:48 -0400
+Served asset /merch_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_four.png" for 127.0.0.1 at 2013-04-28 00:10:48 -0400
+Served asset /merch_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-28 00:11:01 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-28 00:11:01 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-28 00:11:01 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-28 00:11:01 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-28 00:11:01 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-28 00:11:01 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-28 00:11:01 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-28 00:11:01 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_two.png" for 127.0.0.1 at 2013-04-28 00:11:01 -0400
+Served asset /merch_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_three.png" for 127.0.0.1 at 2013-04-28 00:11:02 -0400
+Served asset /indiv_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_one.png" for 127.0.0.1 at 2013-04-28 00:11:02 -0400
+Served asset /indiv_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_two.png" for 127.0.0.1 at 2013-04-28 00:11:02 -0400
+Served asset /indiv_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_four.png" for 127.0.0.1 at 2013-04-28 00:11:02 -0400
+Served asset /indiv_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-28 00:11:02 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_three.png" for 127.0.0.1 at 2013-04-28 00:11:02 -0400
+Served asset /merch_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_four.png" for 127.0.0.1 at 2013-04-28 00:11:02 -0400
+Served asset /merch_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-28 00:11:40 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.7ms)
+Compiled layout.css  (41ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 76ms (Views: 75.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-28 00:11:40 -0400
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-28 00:11:40 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-28 00:11:40 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-28 00:11:40 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-28 00:11:40 -0400
+Served asset /layout.css - 200 OK (3ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-28 00:11:40 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-28 00:11:40 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_one.png" for 127.0.0.1 at 2013-04-28 00:11:41 -0400
+Served asset /merch_one.png - 200 OK (0ms)
+
+
+Started GET "/assets/indiv_one.png" for 127.0.0.1 at 2013-04-28 00:11:41 -0400
+Served asset /indiv_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_two.png" for 127.0.0.1 at 2013-04-28 00:11:41 -0400
+Served asset /indiv_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-28 00:11:41 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_three.png" for 127.0.0.1 at 2013-04-28 00:11:41 -0400
+Served asset /indiv_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-28 00:11:41 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_four.png" for 127.0.0.1 at 2013-04-28 00:11:41 -0400
+Served asset /indiv_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_two.png" for 127.0.0.1 at 2013-04-28 00:11:41 -0400
+Served asset /merch_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_three.png" for 127.0.0.1 at 2013-04-28 00:11:41 -0400
+Served asset /merch_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_four.png" for 127.0.0.1 at 2013-04-28 00:11:41 -0400
+Served asset /merch_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-28 00:15:30 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-28 00:15:30 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-28 00:15:30 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:30 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:30 -0400
+Served asset /static.js - 200 OK (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-28 00:15:30 -0400
+Served asset /layout.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:30 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:30 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-28 00:15:30 -0400
+Served asset /reset.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-28 00:15:30 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-28 00:15:30 -0400
+Served asset /layout.css - 200 OK (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-28 00:15:30 -0400
+Served asset /reset.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:30 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:30 -0400
+Served asset /static.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:30 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:30 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-28 00:15:31 -0400
+Served asset /logo.png - 200 OK (0ms)
+
+
+Started GET "/assets/indiv_four.png" for 127.0.0.1 at 2013-04-28 00:15:31 -0400
+Served asset /indiv_four.png - 200 OK (0ms)
+
+
+Started GET "/assets/indiv_three.png" for 127.0.0.1 at 2013-04-28 00:15:31 -0400
+Served asset /indiv_three.png - 200 OK (0ms)
+
+
+Started GET "/assets/indiv_one.png" for 127.0.0.1 at 2013-04-28 00:15:31 -0400
+Served asset /indiv_one.png - 200 OK (0ms)
+
+
+Started GET "/assets/indiv_two.png" for 127.0.0.1 at 2013-04-28 00:15:31 -0400
+Served asset /indiv_two.png - 200 OK (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-28 00:15:31 -0400
+Served asset /phonesletterbox.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/merch_one.png" for 127.0.0.1 at 2013-04-28 00:15:31 -0400
+Served asset /merch_one.png - 200 OK (0ms)
+
+
+Started GET "/assets/merch_two.png" for 127.0.0.1 at 2013-04-28 00:15:31 -0400
+Served asset /merch_two.png - 200 OK (0ms)
+
+
+Started GET "/assets/merch_three.png" for 127.0.0.1 at 2013-04-28 00:15:31 -0400
+Served asset /merch_three.png - 200 OK (0ms)
+
+
+Started GET "/assets/merch_four.png" for 127.0.0.1 at 2013-04-28 00:15:31 -0400
+Served asset /merch_four.png - 200 OK (0ms)
+
+
+Started GET "/assets/indiv_two.png" for 127.0.0.1 at 2013-04-28 00:15:31 -0400
+Served asset /indiv_two.png - 200 OK (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-28 00:15:31 -0400
+Served asset /phonesletterbox.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/indiv_one.png" for 127.0.0.1 at 2013-04-28 00:15:31 -0400
+Served asset /indiv_one.png - 200 OK (0ms)
+
+
+Started GET "/assets/indiv_three.png" for 127.0.0.1 at 2013-04-28 00:15:31 -0400
+Served asset /indiv_three.png - 200 OK (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-28 00:15:31 -0400
+Served asset /logo.png - 200 OK (0ms)
+
+
+Started GET "/assets/indiv_four.png" for 127.0.0.1 at 2013-04-28 00:15:31 -0400
+Served asset /indiv_four.png - 200 OK (0ms)
+
+
+Started GET "/assets/merch_one.png" for 127.0.0.1 at 2013-04-28 00:15:31 -0400
+Served asset /merch_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_two.png" for 127.0.0.1 at 2013-04-28 00:15:31 -0400
+Served asset /merch_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_three.png" for 127.0.0.1 at 2013-04-28 00:15:31 -0400
+Served asset /merch_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_four.png" for 127.0.0.1 at 2013-04-28 00:15:31 -0400
+Served asset /merch_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-28 00:15:45 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-28 00:15:45 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-28 00:15:45 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-28 00:15:45 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_two.png" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /indiv_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_one.png" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /indiv_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_four.png" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /indiv_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_three.png" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /indiv_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_one.png" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /merch_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_three.png" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /indiv_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_three.png" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /merch_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_two.png" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /indiv_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_four.png" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /merch_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_two.png" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /merch_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_four.png" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /indiv_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_one.png" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /indiv_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_one.png" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /merch_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_three.png" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /merch_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_two.png" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /merch_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_four.png" for 127.0.0.1 at 2013-04-28 00:15:46 -0400
+Served asset /merch_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_two.png" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /indiv_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_one.png" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /indiv_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_four.png" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /indiv_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_one.png" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /merch_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_three.png" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /indiv_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_two.png" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /merch_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_three.png" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /merch_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_four.png" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /merch_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_one.png" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /indiv_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_four.png" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /indiv_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_two.png" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /merch_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_one.png" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /merch_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_three.png" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /merch_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_four.png" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /merch_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_three.png" for 127.0.0.1 at 2013-04-28 00:15:52 -0400
+Served asset /indiv_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 43ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_four.png" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /indiv_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_two.png" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /indiv_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_one.png" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /indiv_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_one.png" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /merch_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_three.png" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /indiv_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_two.png" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /merch_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_four.png" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /merch_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_three.png" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /merch_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_one.png" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /merch_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_three.png" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /indiv_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_four.png" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /indiv_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_two.png" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /merch_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_one.png" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /indiv_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_three.png" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /merch_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_four.png" for 127.0.0.1 at 2013-04-28 00:15:59 -0400
+Served asset /merch_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 7ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_one.png" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /indiv_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_two.png" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /indiv_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_four.png" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /indiv_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_one.png" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /merch_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_three.png" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /indiv_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_two.png" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /merch_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_one.png" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /indiv_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_four.png" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /merch_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_one.png" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /merch_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_three.png" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /merch_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_three.png" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /indiv_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_four.png" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /indiv_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_two.png" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /merch_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_three.png" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /merch_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_four.png" for 127.0.0.1 at 2013-04-28 00:16:03 -0400
+Served asset /merch_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_one.png" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /indiv_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_four.png" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /indiv_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_one.png" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /merch_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_three.png" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /indiv_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_two.png" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /indiv_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_two.png" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /merch_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_four.png" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /merch_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_three.png" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /indiv_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_four.png" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /indiv_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_two.png" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /indiv_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_one.png" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /indiv_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_three.png" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /merch_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_one.png" for 127.0.0.1 at 2013-04-28 00:16:53 -0400
+Served asset /merch_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_two.png" for 127.0.0.1 at 2013-04-28 00:16:54 -0400
+Served asset /merch_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_three.png" for 127.0.0.1 at 2013-04-28 00:16:54 -0400
+Served asset /merch_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_four.png" for 127.0.0.1 at 2013-04-28 00:16:54 -0400
+Served asset /merch_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-28 00:20:16 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-28 00:20:16 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-28 00:20:16 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-28 00:20:16 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-28 00:20:16 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-28 00:20:16 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-28 00:20:16 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-28 00:20:16 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_one.png" for 127.0.0.1 at 2013-04-28 00:20:16 -0400
+Served asset /indiv_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_three.png" for 127.0.0.1 at 2013-04-28 00:20:16 -0400
+Served asset /indiv_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_four.png" for 127.0.0.1 at 2013-04-28 00:20:16 -0400
+Served asset /indiv_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-28 00:20:16 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_two.png" for 127.0.0.1 at 2013-04-28 00:20:16 -0400
+Served asset /indiv_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_two.png" for 127.0.0.1 at 2013-04-28 00:20:16 -0400
+Served asset /merch_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_four.png" for 127.0.0.1 at 2013-04-28 00:20:16 -0400
+Served asset /merch_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_three.png" for 127.0.0.1 at 2013-04-28 00:20:16 -0400
+Served asset /merch_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-28 00:21:06 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.6ms)
+Compiled layout.css  (44ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 84ms (Views: 83.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-28 00:21:06 -0400
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-28 00:21:06 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-28 00:21:06 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-28 00:21:06 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-28 00:21:06 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-28 00:21:06 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-28 00:21:06 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-28 00:21:06 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-28 00:21:06 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_two.png" for 127.0.0.1 at 2013-04-28 00:21:06 -0400
+Served asset /indiv_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_three.png" for 127.0.0.1 at 2013-04-28 00:21:06 -0400
+Served asset /indiv_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_one.png" for 127.0.0.1 at 2013-04-28 00:21:06 -0400
+Served asset /merch_one.png - 200 OK (0ms)
+
+
+Started GET "/assets/indiv_one.png" for 127.0.0.1 at 2013-04-28 00:21:06 -0400
+Served asset /indiv_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_four.png" for 127.0.0.1 at 2013-04-28 00:21:06 -0400
+Served asset /indiv_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_two.png" for 127.0.0.1 at 2013-04-28 00:21:06 -0400
+Served asset /merch_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_three.png" for 127.0.0.1 at 2013-04-28 00:21:06 -0400
+Served asset /merch_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_four.png" for 127.0.0.1 at 2013-04-28 00:21:06 -0400
+Served asset /merch_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-28 00:23:13 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (1.2ms)
+Compiled layout.css  (55ms)  (pid 75997)
+Compiled application.css  (1ms)  (pid 75997)
+Completed 200 OK in 93ms (Views: 92.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-28 00:23:13 -0400
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-28 00:23:13 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-28 00:23:13 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-04-28 00:23:13 -0400
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-28 00:23:13 -0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-04-28 00:23:13 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-28 00:23:13 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-28 00:23:13 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_one.png" for 127.0.0.1 at 2013-04-28 00:23:13 -0400
+Served asset /indiv_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_three.png" for 127.0.0.1 at 2013-04-28 00:23:13 -0400
+Served asset /indiv_three.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_four.png" for 127.0.0.1 at 2013-04-28 00:23:13 -0400
+Served asset /indiv_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/indiv_two.png" for 127.0.0.1 at 2013-04-28 00:23:13 -0400
+Served asset /indiv_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phonesletterbox.jpg" for 127.0.0.1 at 2013-04-28 00:23:13 -0400
+Served asset /phonesletterbox.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_one.png" for 127.0.0.1 at 2013-04-28 00:23:13 -0400
+Served asset /merch_one.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_two.png" for 127.0.0.1 at 2013-04-28 00:23:13 -0400
+Served asset /merch_two.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_four.png" for 127.0.0.1 at 2013-04-28 00:23:13 -0400
+Served asset /merch_four.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/merch_three.png" for 127.0.0.1 at 2013-04-28 00:23:13 -0400
+Served asset /merch_three.png - 304 Not Modified (0ms)
