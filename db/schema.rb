@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130428051558) do
+ActiveRecord::Schema.define(:version => 20130428103946) do
 
   create_table "phone_numbers", :force => true do |t|
     t.string   "number",                           :null => false
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(:version => 20130428051558) do
     t.float    "balance",         :default => 0.0, :null => false
     t.datetime "created_at",                       :null => false
     t.datetime "updated_at",                       :null => false
+    t.string   "uuid"
   end
 
   create_table "requests", :force => true do |t|

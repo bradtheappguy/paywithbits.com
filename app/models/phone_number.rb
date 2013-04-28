@@ -11,7 +11,8 @@ class PhoneNumber < ActiveRecord::Base
 
   def generate_bitcoin_address
     unless self.bitcoin_address
-      self.bitcoin_address = WalletThang.generate_address
+      self.uuid = UUID.new.generate      
+      self.bitcoin_address = $bitcoin.getnewaddress(self.uuid)
     end
   end
 
@@ -24,7 +25,17 @@ class PhoneNumber < ActiveRecord::Base
     self.find_by_number!(number)
   end
 
+  def account
+    $bitcoin.getaccount(self.bitcoin_address)
+  end
+
   def balance
-     WalletThang.get_balance(self.bitcon_address)
+     $bitcoin.getbalance(self.account,0)
+  end
+
+  #def sendfrom(fromaccount, tobitcoinaddress, amount, minconf = 1, comment = nil, comment_to = nil)
+  
+  def send_bitcoin(recipient, amount, comment)
+    $bitcoin.sendfrom(self.account, recipient.bitcoin_address, amount, 0, comment, comment) unless self.balance < (amount + 0.001) || self.balance < 0
   end
 end

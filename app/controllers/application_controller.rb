@@ -36,9 +36,7 @@ class ApplicationController < ActionController::Base
 
           raise same_person_message if from_number.number == to_number.number
 
-          from_wallet = WalletThang.new(from_number)
-          to_wallet = WalletThang.new(to_number)
-          from_wallet.transfer(to_wallet, amount, thing)
+          from_number.send_bitcoin(to_number, amount.to_f, thing)
 
           $twilio_client.account.sms.messages.create(:from => mega_from, :to => from_number.number, :body => "You gave #{to_number.number}  #{amount}.")
           $twilio_client.account.sms.messages.create(:from => mega_from, :to => to_number.number, :body => "#{from_number.number} gave you #{amount}.")
