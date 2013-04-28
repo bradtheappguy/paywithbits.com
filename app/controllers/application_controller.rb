@@ -13,7 +13,7 @@ class ApplicationController < ActionController::Base
           new_number = PhoneNumber.new(:number => from, :wallet => "123")
           new_number.save!
 
-          $twilio_client.account.sms.messages.create(:from => mega_from, :to => from, :body => "thanks for signing up")
+          $twilio_client.account.sms.messages.create(:from => mega_from, :to => from, :body => "Thank you for signing up! To start type help")
 
         when "send"
           raise "invalid syntax" unless parts.length == 6
@@ -29,9 +29,9 @@ class ApplicationController < ActionController::Base
 
           from_wallet.transfer(to_wallet, amount, thing)
 
-          $twilio_client.account.sms.messages.create(:from => mega_from, :to => from_number.number, :body => "You gave #{to_number.number} #{amount}")
-          $twilio_client.account.sms.messages.create(:from => mega_from, :to => to_number.number, :body => "#{from_number.number} gave you #{amount}")
-          
+          $twilio_client.account.sms.messages.create(:from => mega_from, :to => from_number.number, :body => "You gave #{to_number.number}  #{amount}.")
+          $twilio_client.account.sms.messages.create(:from => mega_from, :to => to_number.number, :body => "#{from_number.number} gave you #{amount}.")
+
       else
 
       end
