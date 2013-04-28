@@ -5,7 +5,15 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  
+  <meta name="viewport" content="initial-scale=0.8, maximum-scale=1">
+  
   <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700|Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" charset="utf-8">
+  $(function() {
+    $('a[rel*=leanModal]').leanModal({ top : 80, closeButton: ".modal_close" });       
+  });
+  </script>
   
 </head>
 <body>
@@ -15,21 +23,33 @@
   <h1 class="fl"><%= image_tag('logo.png') %></h1>
   <ul class="fr">
     <li>
-      <a href="#">LOGIN</a>
-    </li>
-    <li>
-      <a href="#" class="btn primary">REGISTER</a>
+      <a href="#register" rel="leanModal" class="btn primary">REGISTER</a>
     </li>
   </ul> 
   </div>
 </header>
 
 <%= yield %>
+          
 
+<div id="register">
+    <div style="background: #212c3a;"><h3>Register in One Simple Step</h3></div>
+    <h4>Text: <span style="color: #2ecc71;">'SIGNUP'</span><br/>
+    To: <span style="color: #27ae60;">212.873.0783</span></h4>
+    <p>You'll receive a text message shortly to verify your phone number. Now you can send and receive payments from anywhere. To make a transaction simply text your request. ex. "send 'johan' 10USD for beer". </p>
+    <!-- for beta -->
+    <!-- <p><br/>We are currently in Beta. Send us your email and we'll let you know when we're closer to launch.</p>
+        <form action="application_submit" method="get" accept-charset="utf-8">
+          <input type="text" name="some_name" value="" placeholder="Email Address">
+          <p><input type="submit" class="btn" value="Notify Me"></p>
+        </form> -->
+</div>
 
 <footer>
-  <p>&copy;<%= DateTime.now.year  %> GetBit, LLC. <%= link_to "Contact", "#"%></p>
+  <p>&copy;<%= DateTime.now.year  %> GetBit, LLC. <%= link_to "Contact", "mailto:b93nusl" %></p>
 </footer>
+<script src="http://squaresend.com/squaresend.js"></script>
+
 
 </body>
 </html>

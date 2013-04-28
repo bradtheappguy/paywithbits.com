@@ -2,145 +2,326 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-h1 {
-  font-size: 2em;
-  font-family: 'PT Sans', sans-serif;
+@media all and (min-width: 100px) {
+  h1 {
+    font-size: 1em;
+    font-family: 'PT Sans', sans-serif;
+    }
+    
+  h2 {
+    font-size: 3em; 
+    line-height: 1.2em; 
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800; 
+  }
+  h3,h4 {
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    line-height: 2em;
+  }
+  h4 {
+    line-height: 1em;
+    font-size: 2.2em;
+    font-weight: 800;
+  }
   
+  body {
+    background: #1b242f;
+    font: 16px/1.8em 'Open Sans', sans-serif;
+  }
+  
+  p { font-size: 14px; }
+  .gr { margin-right: 20px; }
+  a { font-size: 14px; }
+  
+  .btn {
+    font-weight: bold;
+    padding: 12px;
+    letter-spacing:0.1px;
+    -webkit-border-radius:4px; /* Saf3+, Chrome */
+       -moz-border-radius:4px; /* FF1+ */
+            border-radius:4px; /* Opera 10.5, IE 9 */ 
+    -webkit-box-shadow: inset 0 1px 0 0px rgba(255,255,255,0.2); /* Saf3.0+, Chrome */
+       -moz-box-shadow: inset 0 1px 0 0px rgba(255,255,255,0.2); /* FF3.5+ */
+            box-shadow: inset 0 1px 0 0px rgba(255,255,255,0.2); /* Opera 10.5, IE 9.0 */
+    &:hover {text-decoration: none;}
   }
 
-h2 {
-  font-size: 6em; 
-  line-height: 1.2em; 
-  color: #FFF;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800; 
-}
-
-h3,h4 {
-  font-size: 2em;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  color: #FFF;
-  line-height: 2em;
-}
-
-h4 {
-  line-height: 1em;
-  font-size: 3em;
-  font-weight: 800;
-}
-
-
-p {font-size: 14px;}
-
-.gr {
-  margin-right: 20px;
-}
-
-a {font-size: 14px;}
-
-body {
-  background: #1b242f;
-  font: 16px/1.8em 'Open Sans', sans-serif;
-}
-
-.container {
-  width: 100%;
-  .inner {width: 980px; margin: 0 auto;}
-}
-
-header {
-  padding: 1em 0;
-  position: fixed;
-  background: rgba(37, 123, 180, 0.95);
-  border-bottom: 1px solid #1c6a9e;
-  ul {margin-top: 10px;}
-  li {display: inline-block; margin-left: 10px;}
-  a {color: #FFF;
-    &:hover {text-decoration: underline;}
+  .primary {
+    color: #FFF;
+    background: #2ecc71;
+    &:hover {
+      background: #27ae60;
+    }
   }
-}
-
-#hero {
-  padding-top: 10em;
-  background: url('phonesletterbox.jpg') center center no-repeat;
-  height: 520px;
-  -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  h2, h3 {
-    text-align: center;
-    text-shadow:rgba(64, 64, 64, 0.3) 2px 2px 2px; 
+  
+  form {
+    input {width: 224px; padding: 8px; margin-bottom: 8px;}
+   input[type="submit"] {background: #3498db; border: none; width: 240px; color: #FFF;} 
   }
-}
-
-.btn {
-  font-weight: bold;
-  padding: 12px;
-  letter-spacing:0.1px;
-  -webkit-border-radius:4px; /* Saf3+, Chrome */
-     -moz-border-radius:4px; /* FF1+ */
-          border-radius:4px; /* Opera 10.5, IE 9 */ 
-  -webkit-box-shadow: inset 0 1px 0 0px rgba(255,255,255,0.2); /* Saf3.0+, Chrome */
-     -moz-box-shadow: inset 0 1px 0 0px rgba(255,255,255,0.2); /* FF3.5+ */
-          box-shadow: inset 0 1px 0 0px rgba(255,255,255,0.2); /* Opera 10.5, IE 9.0 */
-  &:hover {text-decoration: none;}
-}
-
-
-.primary {
-  color: #FFF;
-  background: #2ecc71;
-  &:hover {
-    background: #27ae60;
+  
+  .container {
+    width: 100%;
+    min-width:320px;
+    .inner {
+      width: 320px;
+      margin: 0 auto; 
+    }
   }
-}
+  
+  header {
+    padding: 1em 0;
+    position: fixed;
+    background: rgba(37, 123, 180, 0.95);
+    border-bottom: 1px solid #1c6a9e;
+    ul {margin-top: 16px;}
+    li {display: inline-block; margin-left: 10px;}
+    a {color: #FFF;
+      &:hover {text-decoration: underline;}
+    }
+  }
 
-.maincta {
-  margin: 1em auto 0 auto;
-  padding: 0.75em 2em;
-  width: 190px;
-  display: block;
-  font-size: 2em;
-  color: #FFF;
-  background: #2ecc71;
-  &:hover {background: #27ae60;}
-}
-
-
-#individuals, #business {
-  padding: 4em 0;
-  color: #FFF;
-  background: #34495e;
-  h3, h4 {text-align: center;}
-  ul {
-    margin-top: 3em;
-    li {
-      display: inline-block;
-      width: 230px;
+  #hero {
+    padding-top: 8em;
+    background: url('phonesletterbox.jpg') center center no-repeat;
+    height: 380px;
+    -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    h2, h3 {
       text-align: center;
-      p{
-        margin-top: 1em;
-        text-align: left;
+      text-shadow:rgba(64, 64, 64, 0.3) 2px 2px 2px; 
+    }
+  }
+  
+  .maincta {
+    margin: 1em auto 0 auto;
+    padding: 0.75em 2em;
+    width: 190px;
+    display: block;
+    font-size: 2em;
+    color: #FFF;
+    background: #2ecc71;
+    &:hover {background: #27ae60;}
+  }
+  
+  #individuals, #business {
+    padding: 3em 0;
+    color: #FFF;
+    background: #34495e;
+    h3, h4 {text-align: center;}
+    ul {
+      margin-top: 1em;
+      li {
+        display: inline-block;
+        width: 300px;
+        text-align: center;
+        margin-bottom: 2em;
       }
     }
   }
-}
-
-#business {
-  background: #2c3e50;
-}
-
-footer {
-  text-align: center;
-  color: #34495e;
-  padding: 0.5em 0;
-  a {color: #526f91;
-    &:hover {color: #96abc4;}
+  
+  #business {
+    background: #2c3e50;
   }
+  
+  footer {
+    width: 100%;
+    min-width: 980px;
+    text-align: center;
+    background: #1b242f;
+    color: #34495e;
+    padding: 0.5em 0;
+    a {color: #526f91;
+      &:hover {color: #96abc4;}
+    }
+  }
+  
+  #lean_overlay {
+  position: fixed;
+  z-index: 10000;
+  top: 0px;
+  left: 0px;
+  height:100%;
+  width:100%;
+  background: #000;
+  display: none;
+  }
+
+  #register {
+    text-align: center;
+  width: 280px;
+  display:none;
+  background: #FFF;   
+  color: #212c3a;
+  -webkit-border-radius:4px; /* Saf3+, Chrome */
+     -moz-border-radius:4px; /* FF1+ */
+          border-radius:4px; /* Opera 10.5, IE 9 */ 
+  border: 4px solid #212c3a;
+  h3, h4 {color: #212c3a;}
+  h3 {font-size: 13px; color: #FFF; padding: 20px 0;}
+  h4 {font-size: 26px; line-height: 1.4em; font-weight: 400; padding: 20px;}
+  h4 span {font-weight: 800;}
+  p {padding: 0 20px 40px 20px;}
+  }
+  
+  footer {
+    width: 100%;
+    min-width: 300px;
+    text-align: center;
+    background: #1b242f;
+    color: #34495e;
+    padding: 0.5em 0;
+    a {color: #526f91;
+      &:hover {color: #96abc4;}
+    }
+  }
+  
+  
 }
 
 
+@media all and (min-width: 1000px) {
+  
+  h1 { font-size: 2em; }
+
+  h2 {
+    font-size: 6em; 
+    line-height: 1.2em; 
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800; 
+  }
+
+  h3,h4 {
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    line-height: 2em;
+  }
+
+  h4 {
+    line-height: 1em;
+    font-size: 3em;
+    font-weight: 800;
+  }
+
+  .container {
+    min-width:980px;
+    .inner {
+      width: 980px; 
+      padding: 0 10px;
+    }
+  }
+
+//  header {
+//    padding: 1em 0;
+//    position: fixed;
+//    background: rgba(37, 123, 180, 0.95);
+//    border-bottom: 1px solid #1c6a9e;
+//    ul {margin-top: 10px;}
+//    li {display: inline-block; margin-left: 10px;}
+//    a {color: #FFF;
+//      &:hover {text-decoration: underline;}
+//    }
+//  }
+//
+  #hero {
+    padding-top: 10em;
+//    background: url('phonesletterbox.jpg') center center no-repeat;
+    height: 520px;
+//    -webkit-background-size: cover;
+//      -moz-background-size: cover;
+//      -o-background-size: cover;
+//      background-size: cover;
+//    h2, h3 {
+//      text-align: center;
+//      text-shadow:rgba(64, 64, 64, 0.3) 2px 2px 2px; 
+//    }
+  }
+
+//  .maincta {
+//    margin: 1em auto 0 auto;
+//    padding: 0.75em 2em;
+//    width: 190px;
+//    display: block;
+//    font-size: 2em;
+//    color: #FFF;
+//    background: #2ecc71;
+//    &:hover {background: #27ae60;}
+//  }
+
+  #individuals, #business {
+    padding: 4em 0;
+    color: #FFF;
+    background: #34495e;
+    h3, h4 {text-align: center;}
+    ul {
+      margin-top: 3em;
+      li {
+        display: inline-block;
+        width: 230px;
+        text-align: center;
+        p{
+          margin-top: 1em;
+          text-align: left;
+        }
+      }
+    }
+  }
+
+  footer {
+    width: 100%;
+    min-width: 1000px;
+    text-align: center;
+    background: #1b242f;
+    color: #34495e;
+    padding: 0.5em 0;
+    a {color: #526f91;
+      &:hover {color: #96abc4;}
+    }
+  }
+  
+  form {
+    input {width: 284px; padding: 8px; margin-bottom: 8px;}
+   input[type="submit"] {background: #3498db; border: none; width: 300px; color: #FFF;} 
+  }
+
+//  #lean_overlay {
+//  position: fixed;
+//  z-index: 10000;
+//  top: 0px;
+//  left: 0px;
+//  height:100%;
+//  width:100%;
+//  background: #000;
+//  display: none;
+//  }
+//
+  #register {
+//    text-align: center;
+  width: 420px;
+//  display:none;
+//  background: #FFF;   
+//  color: #212c3a;
+//  -webkit-border-radius:4px; /* Saf3+, Chrome */
+//     -moz-border-radius:4px; /* FF1+ */
+//          border-radius:4px; /* Opera 10.5, IE 9 */ 
+//  border: 4px solid #212c3a;
+  h3, h4 {color: #212c3a;}
+  h3 {font-size: 20px; color: #FFF; padding: 20px 0;}
+  h4 {font-size: 46px; line-height: 1.4em; font-weight: 400; padding: 20px;}
+  h4 span {font-weight: 800;}
+  p {padding: 0 20px 40px 20px;}
+  }
 
 
+
+
+  
+}
