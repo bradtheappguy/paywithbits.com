@@ -130,6 +130,7 @@ class ApplicationController < ActionController::Base
          help = {
                  "signup"  => "signup",
                  "balance" => "command: balance",
+                 "address" => "command: address",
                  "send"    => "command: send <amount> to <phone number> for <note>",
                  "request" => "command: request <amount> from <phone number> for <note>"
                 }
