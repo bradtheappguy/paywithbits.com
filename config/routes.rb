@@ -4,6 +4,8 @@ Bits::Application.routes.draw do
   get "static/contact"
 
   get "static/help"
+  
+  get "static/faq"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -55,6 +57,7 @@ Bits::Application.routes.draw do
   match 'twilio' => 'application#inbound'
 
   match 'help' => 'static#help'
+  match 'faq' => 'static#faq'
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
