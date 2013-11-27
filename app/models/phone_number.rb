@@ -26,7 +26,7 @@ class PhoneNumber < ActiveRecord::Base
   end
 
   def balance
-     $bitcoin.getbalance(self.account,0)
+     $bitcoin.getbalance(self.account,1)
   end
 
   def send_bitcoin(recipient, amount, comment)
